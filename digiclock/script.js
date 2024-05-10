@@ -6,7 +6,7 @@ function updateClock(){
 
     const ampm = document.getElementById("dn"); // Moved declaration here
 
-    if(hours > 12){
+    if(hours > 11){
         ampm.textContent = 'PM';
     }
     else{
