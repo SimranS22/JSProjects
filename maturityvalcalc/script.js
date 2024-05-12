@@ -5,7 +5,7 @@ function calcMatAmtSI() {
 
     const matureSI = principal + (principal * interestRate * tenure) / 100;
 
-    document.getElementById('result').innerText = `Maturity Amount: ${matureSI.toFixed(2)}`;
+    document.getElementById('result').innerText = `Maturity Amount: ₹${matureSI.toFixed(2)}`;
 }
 
 function calcMatAmtCI() {
@@ -16,7 +16,7 @@ function calcMatAmtCI() {
 
     const matureCI = principal * Math.pow((1 + interestRate / (100 * fcomp)), fcomp * tenure);
 
-    document.getElementById('result').innerText = `Maturity Amount: ${matureCI.toFixed(2)}`;
+    document.getElementById('result').innerText = `Maturity Amount: ₹${matureCI.toFixed(2)}`;
 }
 
 document.getElementById("calculateBtn").addEventListener("click", function() {
