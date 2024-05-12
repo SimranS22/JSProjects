@@ -9,13 +9,16 @@ body{
     background: linear-gradient(to left, rgb(254, 146, 164),rgb(205, 9, 205));
 }
 
-label{
+h2{
     text-decoration:underline;
     font-weight: 600;
 }
 
 .card{
-    max-width:900px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 500px;
     background-color: #ffffff;
     margin: 10px auto;
     box-shadow: 0 2px 4px rgb(190, 190, 190);
@@ -52,7 +55,32 @@ label{
 }
 
 .row p{
-    margin-top:10px;
+    margin:10px;
     font-size: 16px;
     text-align: justify;
+}
+
+#data{
+    margin: 10px;
+}
+
+.backhome{
+    width:max-content;
+    background-color:rgb(250, 206, 213);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+    
+}
+a{
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.backhome:hover{
+    background-color: rgb(239, 143, 159);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
