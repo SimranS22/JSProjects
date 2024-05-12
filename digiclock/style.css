@@ -54,14 +54,13 @@ h1{
 
 .backhome{
     width:max-content;
-    background-color:#632df8;
-    color: #ffffff;
+    background-color:#632df8;    
     padding: 10px;
     border-radius: 10px;
     margin: 0px auto;
 }
 a{
-    color: #000;
+    color: #ffffff;
     text-decoration: none;
     justify-content: center;
     text-align: center;
