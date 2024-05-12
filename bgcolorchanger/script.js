@@ -17,9 +17,7 @@ function getRandColor(){
 
     for(let i=0;i<6;i++){
         color += letters[Math.floor(Math.random()*16)];
-        // console.log(color);
-        // result.textContent = color;
-        result.innerHTML = color;
+        result.innerHTML = "Hexcode: "+color;
 
     }
     return color;
