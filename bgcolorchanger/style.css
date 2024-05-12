@@ -20,12 +20,33 @@ body{
 #res{
     background: #ffffff;
     border-radius: 10px;
-    margin-top: 5px;
-    padding: 5px;
+    width: fit-content;
+    margin: 5px auto;
+    padding: 10px;
 }
 
 #copyIcon{
     cursor: pointer;
     font-size: 15px;
     vertical-align: middle; /* Centers the icon vertically */
+}
+
+.backhome{
+    width:max-content;
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.backhome:hover{
+    background-color: #ececec;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
