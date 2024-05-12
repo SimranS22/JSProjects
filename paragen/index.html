@@ -12,10 +12,11 @@
         <div class="card">
             <div class="row">
                 <div>
-                    <label for="items">Generate Random Paragraphs</label>
+                    <h2>Generate Random Paragraphs</h2>
                 </div>
                 <div>
-                    <input type="number" id="items" value="5">
+                    <label for="items">Number of paragraphs to generate: </label>
+                    <input type="number" id="items" name="items" value="5">
                 </div>
                 <div>
                     <button onclick="generate()">Generate</button>
@@ -23,6 +24,9 @@
             </div>
         </div>
         <div class="row" id="data"></div>
+    </div>
+    <div class="backhome">
+        <a href="/JSProjects/"> Back to Homepage</a>
     </div>
     <script src="script.js"></script>
 </body>
