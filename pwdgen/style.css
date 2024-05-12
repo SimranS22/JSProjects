@@ -86,9 +86,24 @@ input[type="range"] {
     background-color: #0056b3;
 }
 
-.bck{
+.backhome{
+    width:max-content;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #8c8c8c;
+    border-radius: 10px;
+    margin: 20px auto;    
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+a{
+    color: #000;
+    text-decoration: none;
     justify-content: center;
-    align-items: center;
     text-align: center;
-    width: 100%;  
+    align-items: center;
+}
+
+.backhome:hover{
+    background-color: #f4f1f1;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
