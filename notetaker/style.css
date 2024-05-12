@@ -16,6 +16,26 @@ body{
     align-items: flex-start;
     flex-wrap: wrap;
 }
+.backhome{
+    position: fixed;
+    top: 20px;
+    right: 90px; 
+    margin-right: 5px;
+    background-color: #275bd5;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition:  #2dd527 0.3s ease;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
 
 #addBtn{
     position: fixed;
@@ -32,6 +52,10 @@ body{
 
 #addBtn:hover{
     background-color:  #2f6d2d;
+}
+
+.backhome:hover{
+    background-color: #3756a0;
 }
 
 .note{
