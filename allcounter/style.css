@@ -45,16 +45,31 @@ button:hover{
     cursor: pointer;
 }
 
-/* #result{
-    font-size:24px;
-    margin: 10px 0;
-    font-weight: 400;
-} */
-
 .inside-con{
     /* box-shadow: 2px 2px #131313; */
     max-width:500px;
     border-radius:  10px;
     margin: 10px auto;
     padding: 5px 0 10px 0;
+}
+
+
+.backhome{
+    width:max-content;
+    background-color:rgb(240, 190, 64);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.backhome:hover{
+    background-color: rgb(246, 221, 157);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
