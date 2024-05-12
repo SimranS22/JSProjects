@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
 .container{
@@ -9,15 +10,25 @@
     width: 100%;
     background-color: #29214b;
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items:center;
 }
+.input-box{
+    width: 15%;
+    height:40px;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+}
+
 input:focus-visible{
     outline: none;
 }
 .input-box-inside{
-    /* width: 300px; */
-    /* position:relative; */
     display: flex;
     border: 1px solid #fff;
     padding: 10px;
@@ -33,19 +44,6 @@ input:focus-visible{
 #password::placeholder{
     border: transparent;
     color: #fff;
-}
-
-.input-box{
-    width:20%;
-    height:40px;
-    /* padding: 0 30px; */
-    /* border: 1px solid #fff; */
-    outline: none;
-    border-radius: 5px;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    margin-inline: auto;
 }
 
 button{
@@ -67,8 +65,31 @@ button i{
     font-size:16px;
     display: none;
 }
-/* 
-.res-box{
-    margin-top: 5px;
-    border: transparent;
-} */
+
+.backhome{
+    width:15%;
+    height:40px;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    padding:5px;
+    margin: 10px auto;
+    justify-content: center;
+    
+}
+
+a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.backhome:hover{
+    background-color: #584d89a5;;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
