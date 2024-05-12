@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #a0fbdc;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -47,4 +48,26 @@ button:hover{
     font-size: 18px;
     text-align:center;
     margin-top: 10px;
+}
+
+.backhome{
+    width:max-content;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #8c8c8c;
+    border-radius: 10px;
+    margin: 20px auto;    
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+a{
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.backhome:hover{
+    background-color: #f4f1f1;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
