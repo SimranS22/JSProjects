@@ -79,3 +79,23 @@ button{
 .result p{
     font-size: 15px;
 }
+
+.backhome{
+    width:max-content;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.backhome:hover{
+    background-color: #f4f1f1;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
