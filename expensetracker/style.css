@@ -1,0 +1,98 @@
+body{
+    background-color: #f2f2f2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.expense-tracker{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 1px solid #ccc;
+    background-color: beige;
+}
+
+.expense-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-expense-btn{
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* .expense-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+} */
+
+.total-expenses{
+    text-align: right;
+}
+
+.expense-list{
+    margin-bottom: 20px;
+}
+
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.expense-item-desc{
+    font-weight: bold;
+}
+
+.expense-item-amt{
+    font-weight: bold;
+}
+
+.del-exp-btn{
+    background-color: #f44;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.backhome{
+    width:max-content;
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.backhome:hover{
+    background-color: #ececec;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
